@@ -1,6 +1,6 @@
 # Cornholius Keyboard
 
-Cornholius is, first and foremost, a Bluetooth Low Energy capable replacement PCB for the [Foostan Cornelius](https://github.com/foostan/corneliuskbd). Key and connector positions as well as PCB outline and plate were derived from the original Cornelius repository, but altered to fit the scope of this project - Thank you for open sourcing these files! In accordance with the license chosen by foostan, this project was published under the same license.
+Cornholius is, first and foremost, a Bluetooth Low Energy capable replacement PCB for the [Foostan Cornelius](https://github.com/foostan/corneliuskbd). Key and connector positions as well as PCB outline and plate were derived from the original Cornelius repository, but altered to fit the scope of this project - Thank you for open sourcing these files! In accordance with the license chosen by foostan, this project was published under the same license: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
 
 It is designed to run on [ZMK Firmware](https://github.com/zmkfirmware/zmk), with the firmware sources being located in a [zmk-config fork in my account](https://github.com/ebastler/zmk-config/tree/cornholius-a). Please note that both the firmware and the repository as a whole is still a work in progress. The PCBs and plates themselves are tested, but have not been tested in an original Cornelius enclosure yet, and clearance issues may arise between the RF module and the keyboard bottom case. I will update the repository once everything has been tested.
 
