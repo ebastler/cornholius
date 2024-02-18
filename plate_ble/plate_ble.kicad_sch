@@ -1,0 +1,1819 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 195be91b-8e8a-44dc-96de-003bfb3dcf19)
+
+  (paper "A3")
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 139.7 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 063b1dc2-ca55-4bb4-85d7-6cd6f495ad59)
+    (property "Reference" "MX32" (at 142.24 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 142.24 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 139.7 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 139.7 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX32") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H32") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX32") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 154.94 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 068ae062-4b8a-4e8f-89cf-d2041ddd6e40)
+    (property "Reference" "MX45" (at 157.48 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 157.48 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 154.94 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.94 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 154.94 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX45") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H45") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX45") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 124.46 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 06fd59d4-5c4e-41cb-bddc-70adb2b1f5e5)
+    (property "Reference" "MX19" (at 127 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 127 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 124.46 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 124.46 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX19") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H19") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 185.42 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 07437343-938b-40bc-85a1-78465ff1d5ce)
+    (property "Reference" "MX11" (at 187.96 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 187.96 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 185.42 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 185.42 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX11") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 185.42 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 08d3b48b-5aae-4e55-b4f6-ccd7af245d63)
+    (property "Reference" "MX47" (at 187.96 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 187.96 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 185.42 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 185.42 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX47") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H47") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX47") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 93.98 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1010bd01-1237-46bd-98c0-fff1ff2db459)
+    (property "Reference" "MX17" (at 96.52 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 96.52 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 93.98 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 93.98 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX17") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H17") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 109.22 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2a0074bb-eb0c-4c1c-8e3e-2569f9806bef)
+    (property "Reference" "MX30" (at 111.76 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 111.76 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 109.22 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 109.22 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX30") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H30") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX30") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 170.18 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2ec8a01a-e72d-4077-be61-c2143af405e1)
+    (property "Reference" "MX34" (at 172.72 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 172.72 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 170.18 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 170.18 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX34") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H34") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 48.26 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3a81b5f7-7659-40af-8a1a-5fc79ed315a8)
+    (property "Reference" "MX2" (at 50.8 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 50.8 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 48.26 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 48.26 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX2") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 48.26 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 44fef1f7-9fcb-43b5-b0fe-76e2df268baa)
+    (property "Reference" "MX14" (at 50.8 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 50.8 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 48.26 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 48.26 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX14") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 200.66 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4c20d6f0-d721-4c3a-8bf8-8c6b2139e8d9)
+    (property "Reference" "MX48" (at 203.2 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 203.2 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 200.66 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 200.66 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 200.66 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX48") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H48") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 185.42 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4e04b161-5b86-4c49-813e-82b664d29d50)
+    (property "Reference" "MX35" (at 187.96 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 187.96 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 185.42 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 185.42 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX35") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H35") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 51a05c2a-5a5f-4f89-a2d7-c452b61e596d)
+    (property "Reference" "MX27" (at 66.04 251.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 63.5 246.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 63.5 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.5 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 63.5 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX27") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H27") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 139.7 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 535aa5ec-573e-4d7d-8222-d455413312ef)
+    (property "Reference" "MX44" (at 142.24 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 142.24 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 139.7 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 139.7 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX44") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H44") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX44") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 48.26 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5bab563d-8012-47ed-a747-f451d964faa3)
+    (property "Reference" "MX38" (at 50.8 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 50.8 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 48.26 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 48.26 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX38") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H38") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX38") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 124.46 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5c95a454-e84b-41ac-a6ae-352fae1fd512)
+    (property "Reference" "MX7" (at 127 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 127 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 124.46 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 124.46 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX7") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 109.22 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6174a3ed-c9f3-48be-a530-f51b00ab21ec)
+    (property "Reference" "MX18" (at 111.76 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 111.76 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 109.22 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 109.22 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX18") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H18") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 78.74 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 655301e7-bf76-4a3c-9ac6-6476fbb26f62)
+    (property "Reference" "MX40" (at 81.28 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 81.28 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 78.74 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 78.74 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX40") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H40") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX40") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 33.02 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 738abfe1-dea5-4266-9254-447c56134734)
+    (property "Reference" "MX13" (at 35.56 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 35.56 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 33.02 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 33.02 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX13") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 93.98 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 738ff01d-32a5-4825-abb3-f41625beaf44)
+    (property "Reference" "MX41" (at 96.52 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 96.52 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 93.98 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 93.98 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX41") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H41") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX41") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 78.74 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 74290ac4-a7ff-4e8b-8083-5234448999c3)
+    (property "Reference" "MX16" (at 81.28 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 81.28 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 78.74 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 78.74 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX16") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 154.94 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7955cf1a-8310-4e2d-ad12-1ffe9032a836)
+    (property "Reference" "MX33" (at 157.48 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 157.48 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 154.94 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.94 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 154.94 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX33") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H33") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX33") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 139.7 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7fc99e47-acb9-4e7e-8aca-ea9247f712b4)
+    (property "Reference" "MX8" (at 142.24 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 142.24 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 139.7 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 139.7 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX8") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 806b236d-ddfc-47ad-8b3f-623a8be01127)
+    (property "Reference" "MX15" (at 66.04 234.95 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 63.5 229.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 63.5 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.5 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 63.5 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX15") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 93.98 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 828c0c7b-148c-42a1-bc13-c584ea3db511)
+    (property "Reference" "MX5" (at 96.52 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 96.52 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 93.98 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 93.98 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX5") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 200.66 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 87d62367-fb54-4d30-b711-f8b17788771b)
+    (property "Reference" "MX24" (at 203.2 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 203.2 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 200.66 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 200.66 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 200.66 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX24") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H24") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 200.66 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8c36b845-6c6d-4747-ab86-22354c81671b)
+    (property "Reference" "MX12" (at 203.2 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 203.2 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 200.66 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 200.66 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 200.66 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX12") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8d9ee6bf-2400-40b7-b950-d6c643e7731e)
+    (property "Reference" "MX39" (at 66.04 267.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 63.5 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 63.5 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.5 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 63.5 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX39") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H39") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX39") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 33.02 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 946bbc7c-58c0-4d1c-9988-eb3eec3dd254)
+    (property "Reference" "MX37" (at 35.56 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 35.56 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 33.02 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 33.02 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX37") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H37") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX37") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 109.22 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 98ba56c3-14fb-4208-9181-612cad8c5eaa)
+    (property "Reference" "MX42" (at 111.76 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 111.76 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 109.22 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 109.22 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX42") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H42") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX42") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 33.02 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9a9ca8a6-152d-48d4-81e9-b630ab8c4441)
+    (property "Reference" "MX25" (at 35.56 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 35.56 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 33.02 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 33.02 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX25") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H25") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 33.02 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9b91aedc-a5a0-446a-a7e6-6c01c262d6c1)
+    (property "Reference" "MX1" (at 35.56 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 35.56 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 33.02 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 33.02 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX1") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 124.46 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9c0cbbf6-79ec-48d0-840c-9ff9f14f0c71)
+    (property "Reference" "MX31" (at 127 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 127 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 124.46 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 124.46 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX31") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H31") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 109.22 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9eb33409-ce36-47b8-82da-d2f83a9318a3)
+    (property "Reference" "MX6" (at 111.76 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 111.76 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 109.22 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 109.22 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX6") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 170.18 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a0d93cc3-bd27-4f03-84db-750b641093c0)
+    (property "Reference" "MX46" (at 172.72 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 172.72 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 170.18 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 170.18 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX46") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H46") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX46") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 154.94 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a919a637-6e78-4b43-879d-79abefca8354)
+    (property "Reference" "MX9" (at 157.48 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 157.48 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 154.94 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.94 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 154.94 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX9") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 48.26 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aad4109c-5f1b-4d73-8cf0-656a8ced7a9f)
+    (property "Reference" "MX26" (at 50.8 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 50.8 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 48.26 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 48.26 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX26") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H26") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX26") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 154.94 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aae60d04-fd5f-40e3-b497-51b1faa28395)
+    (property "Reference" "MX21" (at 157.48 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 157.48 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 154.94 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.94 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 154.94 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX21") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H21") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 170.18 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ab871621-6784-4d14-a287-b55e3745c996)
+    (property "Reference" "MX10" (at 172.72 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 172.72 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 170.18 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 170.18 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX10") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 124.46 267.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b75f4daf-0742-43c9-bdd3-7f3c0350a0c7)
+    (property "Reference" "MX43" (at 127 266.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 127 269.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 124.46 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 124.46 267.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX43") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H43") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX43") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 78.74 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bc466ee8-7bcf-473d-bcfd-2f7817159def)
+    (property "Reference" "MX4" (at 81.28 217.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 81.28 219.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 78.74 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 78.74 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX4") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 93.98 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c3218840-1e96-4f96-8ea3-fc7618f0a79f)
+    (property "Reference" "MX29" (at 96.52 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 96.52 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 93.98 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 93.98 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX29") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H29") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 170.18 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d19ece46-691c-4e12-b3a3-5f6369082b1f)
+    (property "Reference" "MX22" (at 172.72 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 172.72 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 170.18 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 170.18 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 170.18 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX22") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H22") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 78.74 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e1a3515a-2b5b-46dd-bacf-870866851f1e)
+    (property "Reference" "MX28" (at 81.28 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 81.28 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 78.74 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 78.74 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX28") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H28") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX28") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 63.5 218.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f169287a-faeb-4529-8657-4dfadbe7f8d9)
+    (property "Reference" "MX3" (at 66.04 218.44 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 63.5 213.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 63.5 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.5 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 63.5 218.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX3") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 185.42 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f58a0cca-b036-47e7-819b-13b65242279c)
+    (property "Reference" "MX23" (at 187.96 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 187.96 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 185.42 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 185.42 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX23") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H23") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 139.7 234.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f830d584-67f8-4f91-b382-11e25ef0d995)
+    (property "Reference" "MX20" (at 142.24 233.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 142.24 236.22 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 139.7 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 139.7 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX20") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H20") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 200.66 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f8e85629-a073-449b-adcc-8e7f9bed2e74)
+    (property "Reference" "MX36" (at 203.2 250.19 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX" (at 203.2 252.73 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "PCM_marbastlib-xp-plate-mx:Plate-M_MX_1u" (at 200.66 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 200.66 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 200.66 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "MX36") (unit 1)
+        )
+      )
+      (project "plate_ble"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19"
+          (reference "H36") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "MX36") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
