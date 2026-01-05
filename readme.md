@@ -5,7 +5,7 @@ Cornholius is, first and foremost, a Bluetooth Low Energy capable replacement PC
 Parts of this project:
 * [PCB](./hotswap_ble/) [100%]
 * [Plate](./plate_ble/) [100%]
-* 3D printable cornelius/cornholius PCB compatible case [WIP]
+* 3D printable cornelius/cornholius PCB compatible case [100%] - Published on [Printables](https://www.printables.com/model/1543214-cornholius-keyboard-case)
 
 ## Cornholius PCB
 The PCB is designed to be 100% assemblable by jlcpcb in their "economic" PCBA option (without hotswap sockets), or the more expensive "standard" PCBA option incl. hotswap sockets. It uses an [Ebyte nRF52840_E73-2G4M08S1C](https://www.ebyte.com/en/downpdf.aspx?id=445) BLE module, which is part of their component library, so no external components must be ordered from other shops. This module is configured for full 2-stage DC-DC operation in high voltage mode for maximum battery life.
@@ -41,6 +41,4 @@ The plate is made from FR4 substrate, without any copper plating, to minimie int
 Gerber files and assembly files can be found in the [plate_ble/fab subfolder](./plate_ble/fab/). Use 1.6mm FR4 substrate.
 
 ## Cornholius Case
-tbd
-
-This case will be designed to fit Cornholius and Cornelius PCBs, but only work with Cornholius plates due to the mounting design. While it will follow the Cornelius shape out of necessity, I want to give it a distinct design, setting it apart from the original. This section will be updated once the design is finalized.
+For more information regarding the case and necessary mounting hardware, visit my [Printables](https://www.printables.com/model/1543214-cornholius-keyboard-case) page. All files were published there, as well as a list of hardware needed for the assembly. The case will need a Cornholius plate for the o-ring mounting, regular Cornelius plates might fit but are untested.
